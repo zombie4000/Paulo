@@ -1,5 +1,5 @@
 # Paulo :watch:
-Minmal watch face for Fitbit Versa 2
+Minimal watch face for Fitbit Versa 2
 
 ![](paulo.jpg)
 
