@@ -24,8 +24,6 @@
   font-family: System-Regular;
   text-length: 25;
   text-anchor: start;
-  x: 30%;
-  y: 100%-2;
   fill: crimson;
 }
 #stepsLabel {
@@ -33,8 +31,6 @@
   font-family: System-Regular;
   text-length: 25;
   text-anchor: start;
-  x: 70%;
-  y: 100%-2;
   fill: goldenrod;
 }
 #battLabel {

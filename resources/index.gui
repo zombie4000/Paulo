@@ -7,8 +7,8 @@
   <text id="battLabel" />
   
   <text id="heartLabel"/> 
-  <image x="20%" y="100%-25" href="heart.png" height="25" width="25" load="sync" fill="red" />
+  <image id="heartIcon" x="20%" y="100%-30" href="heart.png" height="25" width="25" load="sync" fill="red" />
   
   <text id="stepsLabel"/>
-  <image x="60%" y="100%-25" href="shoe.png" height="25" width="25" load="sync" />
+  <image id="stepsIcon" x="60%" y="100%-30" href="shoe.png" height="25" width="25" load="sync" />
 </svg>

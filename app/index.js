@@ -14,6 +14,7 @@ const dateLabel = document.getElementById("dateLabel");
 const battLabel = document.getElementById("battLabel");
 const stepsLabel = document.getElementById("stepsLabel");
 const heartIcon = document.getElementById("heartIcon");
+const stepsIcon = document.getElementById("stepsIcon");
 
 // Update the clock every minute
 clock.granularity = "minutes";
@@ -41,8 +42,12 @@ clock.ontick = (evt) => {
   dateLabel.text = `${dayName}. ${date}/${month}`;
   
   // ## HEART RATE ##
+  const hibox = heartIcon.getBBox();
+  heartLabel.y = hibox.y+hibox.height;
+  heartLabel.x = hibox.x+hibox.width+3;
   if (HeartRateSensor && appbit.permissions.granted("access_heart_rate")) {
     const hrm = new HeartRateSensor();
+    
     hrm.addEventListener("reading", () => {
       heartLabel.text = `${hrm.heartRate}`;
     });
@@ -59,8 +64,12 @@ clock.ontick = (evt) => {
   }
   
   // ## STEPS ##
+  const sibox = stepsIcon.getBBox();
+  stepsLabel.y = sibox.y+sibox.height;
+  stepsLabel.x = sibox.x+sibox.width+3;
   stepsLabel.text = `${today.adjusted.steps}`;
   
   // ## BATTERY ##
   battLabel.text = `${battery.chargeLevel} %`;
+  
 }
