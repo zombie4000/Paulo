@@ -1,0 +1,49 @@
+.background {
+  viewport-fill: black;
+}
+#clockLabel {
+  font-size: 90;
+  font-family: System-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%;
+  fill: white;
+}
+#dateLabel {
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 50;
+  text-anchor: middle;
+  x: 50%;
+  y: 65%;
+  fill: white;
+}
+#heartLabel {
+  font-size: 31;
+  font-family: System-Regular;
+  text-length: 25;
+  text-anchor: start;
+  x: 30%;
+  y: 100%-2;
+  fill: crimson;
+}
+#stepsLabel {
+  font-size: 31;
+  font-family: System-Regular;
+  text-length: 25;
+  text-anchor: start;
+  x: 70%;
+  y: 100%-2;
+  fill: goldenrod;
+}
+#battLabel {
+  font-size: 18;
+  font-family: System-Light;
+  text-length: 50;
+  text-anchor: middle;
+  x: 50%;
+  y: 18;
+  fill: lightgrey;
+}
+

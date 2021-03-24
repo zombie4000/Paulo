@@ -1,0 +1,14 @@
+<svg class="background">
+  <!-- Background -->
+  <image href="background.jpg" load="sync" />
+  
+  <text id="dateLabel" /> 
+  <text id="clockLabel" />
+  <text id="battLabel" />
+  
+  <text id="heartLabel"/> 
+  <image x="20%" y="100%-25" href="heart.png" height="25" width="25" load="sync" fill="red" />
+  
+  <text id="stepsLabel"/>
+  <image x="60%" y="100%-25" href="shoe.png" height="25" width="25" load="sync" />
+</svg>
